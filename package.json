@@ -1,0 +1,30 @@
+{
+  "name": "largefileupload",
+  "version": "0.0.1",
+  "description": "基于原生js和input-file的h5/web大文件上传插件，不依赖其他类库，引入即用，支持并发上传、切片上传，参数及样式可配置",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "nodemon ./server/index.js"
+  },
+  "keywords": [
+    "h5",
+    "web",
+    "file",
+    "upload",
+    "uploader",
+    "input-file",
+    "input",
+    "file-upload",
+    "uploader"
+  ],
+  "author": "funnyque@163.com",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "repository": "git@github.com:funnyque/largeFileUpload.git",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
